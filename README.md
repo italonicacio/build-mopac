@@ -59,13 +59,12 @@ cmake ../
 
 ![cmake-command](https://drive.google.com/uc?export=view&id=1ZTFvDSGAXuRY6qX-2bRBpOGlzj6U3vUG)
 
-
-
 Em seguida, execute o comando make, para fazer o build do projeto.
 
 ```sh
 make
 ```
+
 Temos uma forma de fazer o build em _paralelo_ adicionando ao comando _make_ uma flag adicional.
 
 ```sh
@@ -80,9 +79,11 @@ Para utilizar todos os núcleos da maquina utiliza o comando:
 make -j $(nproc)
 ```
 
+Ao final do build deve ser possível encontrar o executável _mopac_ dentro da pasta build.
+
 ### Comando adicionais de build
 
-Para o CMake temos algumas configurações para o projeto
+Para o CMake temos algumas configurações para o projeto, é recomendado que você recrie a pasta build e execute um dos comandos abaixo, caso não seja feito isso, alguma das opções que você passar para o cmake talvez não sejam aplicadas.
 
 #### 1. Usando o compilador Fortran gfortran e especificando as bibliotecas LAPACK e BLAS
 
