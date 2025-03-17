@@ -57,12 +57,15 @@ Agora para segue o comando do cmake para criar os arquivos de build:
 cmake ../
 ```
 
+![cmake-command](https://drive.google.com/uc?export=view&id=1ZTFvDSGAXuRY6qX-2bRBpOGlzj6U3vUG)
+
+
+
 Em seguida, execute o comando make, para fazer o build do projeto.
 
 ```sh
 make
 ```
-
 Temos uma forma de fazer o build em _paralelo_ adicionando ao comando _make_ uma flag adicional.
 
 ```sh
@@ -74,7 +77,7 @@ O comando acima você controla quantos processos o make vai criar para estar bui
 Para utilizar todos os núcleos da maquina utiliza o comando:
 
 ```sh
-make -j $(nproc)sss
+make -j $(nproc)
 ```
 
 ### Comando adicionais de build
