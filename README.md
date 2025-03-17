@@ -16,8 +16,10 @@ Primeiro, vamos clonar o repositório do MOPAC do GitHub.
 
 Clique nesse [link](https://github.com/openmopac/mopac) para abrir a pagina inicial do github do MOPAC.
 
-![mopac-github-1](https://drive.google.com/file/d/1IqusZJGibJ8a10UqVZ2iMct69kx3vVTH/view?usp=sharing)
+![mopac-github-1](https://drive.google.com/uc?export=view&id=1IqusZJGibJ8a10UqVZ2iMct69kx3vVTH)
 
 ```sh
 git clone https://github.com/exemplo/mopac.git
 ```
+
+https://drive.google.com/file/d/1IqusZJGibJ8a10UqVZ2iMct69kx3vVTH/view?usp=sharing
