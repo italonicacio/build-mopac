@@ -18,8 +18,18 @@ Clique nesse [link](https://github.com/openmopac/mopac) para abrir a pagina inic
 
 ![mopac-github-1](https://drive.google.com/uc?export=view&id=1IqusZJGibJ8a10UqVZ2iMct69kx3vVTH)
 
+Em seguida, vamos pegar o endereço do repositório para fazer o clone. 
+
+O endereço pode ser encontrado aqui:
+
+![mopac-github-2](https://drive.google.com/uc?export=view&id=1--JISsNJT4ULhu2QkdpKX3diYX1m-83D)
+
 ```sh
-git clone https://github.com/exemplo/mopac.git
+git clone https://github.com/openmopac/mopac.git
 ```
+
+## Passo 2: Buildando o projeto
+
+
 
 https://drive.google.com/file/d/1IqusZJGibJ8a10UqVZ2iMct69kx3vVTH/view?usp=sharing
